@@ -1,0 +1,43 @@
+import React from 'react'
+import Logo from '../images/tearbox.svg';
+import Avatar from '../images/avatar.jpg';
+import { MdKeyboardArrowDown } from "react-icons/md"
+import { FiGlobe } from "react-icons/fi"
+
+
+
+
+
+const Navbar = () => {
+  return (
+    <nav className=" border-b  ">
+      <section className="mx-auto w-11/12 container flex justify-between items-center py-4">
+
+        <div className="flex justify-between items-center ">
+          <img src={Logo} alt="logo" />
+          <ul className="grid gap-6 grid-flow-col mx-6 nav-items">
+            <li>About</li>
+            <li>Blog</li>
+            <li className="flex-center">Products
+            <MdKeyboardArrowDown /> </li>
+            <li className="flex-center">Speciality
+            <MdKeyboardArrowDown /> </li>
+          </ul>
+        </div>
+        <div className="grid gap-6 grid-flow-col">
+          <div className="flex-center">
+            <img className="rounded-full w-10 h-10" src={Avatar} alt="User's Avatar" />
+            <MdKeyboardArrowDown />
+          </div>
+          <div className="grid gap-4 grid-flow-col place-items-center">
+            <FiGlobe />
+            <p>English (INTL)</p>
+            <MdKeyboardArrowDown />
+          </div>
+        </div>
+      </section>
+    </nav>
+  )
+}
+
+export default Navbar

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Bold'), url('./fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Heavy'), url('./fonts/Gilroy-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Light'), url('./fonts/Gilroy-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Medium'), url('./fonts/Gilroy-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Regular ☞'), url('./fonts/Gilroy-Regular.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+// Navbar
+header {
+  background-color: #f6fefa;
+}
+.nav-items{
+  font-family: "Gilroy-Regular";
+}
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Carousel
+.carousel-dots-active button {
+  border: 1px solid #02CB5A !important;
+  border-radius: 50%;
+  padding: 15px;
+}
+.carousel-dots{
+  margin: 2rem auto !important;
+}
+.carousel-dots li.carousel-dots-active button:before {
+  color: #02CB5A !important;
+}
+
+.tobi img{
+  width: 100% !important;
+}
