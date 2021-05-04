@@ -1,15 +1,6 @@
 import React from 'react'
-import styled from 'styled-components';
-import { DefaultHeader } from '.';
+import { DefaultBtn, DefaultHeader } from '.';
 import WhyTB from "../../images/image13.svg"
-
-const DefaultBtn = styled.button`
-  background: #02CB5A;
-  padding: .75rem 2.5rem;
-  color: #fff;
-  border-radius: .25rem;
-  margin-top: 1.5rem;
-  `;
 
 
 

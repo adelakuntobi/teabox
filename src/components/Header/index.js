@@ -4,6 +4,7 @@ import Headertext from './Headertext'
 import Navbar from './Navbar'
 import Carousel from './Carousel'
 import Sponsors from "../../images/MaskGroup.svg"
+import {DefaultBtn} from "../Main"
 
 const BgColor = styled.div`
   position: absolute;
@@ -23,9 +24,6 @@ export const ImageText = styled.div`
   z-index: 40;
   left: 4.1666666%;
 
-  button{
-    background: #02CB5A;
-  }
 `;
 
 const Header = () => {
@@ -43,7 +41,7 @@ const Header = () => {
           <ImageText className="absolute">
             <h1 className="uppercase text-5xl font-semibold leading-tight mb-2">Packed with<br /> freshness<br /> and intact </h1>
             <p className=" font-light">High-quality loose leaf tea in a<br /> convinient option</p>
-            <button className="w-full block p-4 text-lg mt-10">Shop Now</button>
+            <DefaultBtn className="w-full block p-4 text-lg mt-10">Shop Now</DefaultBtn>
           </ImageText>
           <Carousel />
 

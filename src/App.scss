@@ -34,19 +34,16 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-
 body {
   background-color: #f6fefa;
   font-family: 'Work Sans', sans-serif;
 }
 
 // Navbar
-
-.nav-items{
+.nav-items {
   font-family: "Gilroy-Regular";
 }
+
 .flex-center {
   display: flex;
   justify-content: space-between;
@@ -57,19 +54,24 @@ body {
 .carousel-dots-active button {
   border: 1px solid #02CB5A !important;
   border-radius: 50%;
-  padding: 15px;
+  padding: 5px;
 }
-.carousel-dots{
-  margin: 2rem auto !important;
-  z-index: 90;
-}
+
 .carousel-dots li.carousel-dots-active button:before {
   color: #02CB5A !important;
 }
 
-.tobi img{
-  width: 100% !important;
+
+.tobi {
+  img {
+    width: 100% !important;
+  }
+  .carousel-dots{
+    margin: 2rem auto !important;
+    z-index: 90;
+  }
 }
-p{
+
+p {
   font-weight: 300;
 }
