@@ -1,0 +1,60 @@
+import React from 'react'
+import styled from 'styled-components';
+import Headertext from './Headertext'
+import Navbar from './Navbar'
+import Carousel from './Carousel'
+import Sponsors from "../../images/MaskGroup.svg"
+
+const BgColor = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 311px;
+  right: 35%;
+  top: 0px;
+  z-index: 1;
+  background: #E6F8ED;
+`;
+
+export const ImageText = styled.div`
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(31px);
+  color: white;
+  padding: 3rem;
+  z-index: 40;
+  left: 4.1666666%;
+
+  button{
+    background: #02CB5A;
+  }
+`;
+
+const Header = () => {
+  return (
+    <header>
+        <BgColor />
+        <div className="z-10 relative">
+          <Navbar />
+          <Headertext />
+        </div>
+
+
+
+        <div className="relative my-4 xl:container mx-auto">
+          <ImageText className="absolute">
+            <h1 className="uppercase text-5xl font-semibold leading-tight mb-2">Packed with<br /> freshness<br /> and intact </h1>
+            <p className=" font-light">High-quality loose leaf tea in a<br /> convinient option</p>
+            <button className="w-full block p-4 text-lg mt-10">Shop Now</button>
+          </ImageText>
+          <Carousel />
+
+        </div>
+
+        {/* Sponsorss */}
+        <div className="py-10 bg-white">
+          <img src={Sponsors} alt="Sponsors" className="py-6 container w-10/12 mx-auto bg-white" />
+        </div>
+    </header>
+  )
+}
+
+export default Header

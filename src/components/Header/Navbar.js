@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from '../images/tearbox.svg';
-import Avatar from '../images/avatar.jpg';
+import Logo from '../../images/tearbox.svg';
+import Avatar from '../../images/avatar.jpg';
 import { MdKeyboardArrowDown } from "react-icons/md"
 import { FiGlobe } from "react-icons/fi"
 
@@ -27,6 +27,7 @@ const Navbar = () => {
         <div className="grid gap-6 grid-flow-col">
           <div className="flex-center">
             <img className="rounded-full w-10 h-10" src={Avatar} alt="User's Avatar" />
+            Hi Adelakun
             <MdKeyboardArrowDown />
           </div>
           <div className="grid gap-4 grid-flow-col place-items-center">

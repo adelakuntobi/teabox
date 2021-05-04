@@ -38,13 +38,12 @@
 
 
 body {
+  background-color: #f6fefa;
   font-family: 'Work Sans', sans-serif;
 }
 
 // Navbar
-header {
-  background-color: #f6fefa;
-}
+
 .nav-items{
   font-family: "Gilroy-Regular";
 }
@@ -62,6 +61,7 @@ header {
 }
 .carousel-dots{
   margin: 2rem auto !important;
+  z-index: 90;
 }
 .carousel-dots li.carousel-dots-active button:before {
   color: #02CB5A !important;
@@ -69,4 +69,7 @@ header {
 
 .tobi img{
   width: 100% !important;
+}
+p{
+  font-weight: 300;
 }
