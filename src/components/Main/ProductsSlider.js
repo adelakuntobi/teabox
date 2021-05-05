@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'infinite-react-carousel';
 
 import EachItem from './EachItem';
+import { DefaultBtn } from '.';
 
 const Carousel = () => {
 
@@ -33,6 +34,7 @@ const Carousel = () => {
         <EachItem />
         <EachItem />
       </Slider>
+      <DefaultBtn className="mx-auto block">Explore More</DefaultBtn>
     </div>
   );
 }

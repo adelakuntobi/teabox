@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import Others from './Others';
 import Products from './Products';
+import Testimonial from './Testimonial/Testimonial';
 import Why from './Why'
 
 export const DefaultHeader = styled.h2`
@@ -38,6 +40,8 @@ const Main = () => {
     <main>
       <Why />
       <Products />
+      <Others />
+      <Testimonial />
     </main>
   )
 }
