@@ -4,7 +4,7 @@ import Others1 from "../../images/Rectangle24.png"
 
 const Others = () => {
   return (
-    <div className="flex items-center ml-20 mr-8 py-8">
+    <div className="flex items-center py-8 container ml-auto mr-0">
       <div className="w-9/12">
         <DefaultHeader>Over 2 Billion cups.<br/>
         To 117 countries.</DefaultHeader>

@@ -55,6 +55,7 @@ body {
   border: 1px solid #02CB5A !important;
   border-radius: 50%;
   padding: 5px;
+  // background:;
 }
 
 .carousel-dots li.carousel-dots-active button:before {
@@ -74,4 +75,15 @@ body {
 
 p {
   font-weight: 300;
+}
+
+
+// Footer
+footer{
+  background-color: #F8F8F8;
+  color: #494947;
+}
+
+.color-gray{
+  color: #9098B1;
 }
