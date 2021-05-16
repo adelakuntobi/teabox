@@ -16,7 +16,7 @@ const Carousel = () => {
     // autoplay: true,
     autoplaySpeed: 6000,
     centerMode: true,
-    centerPadding: 270,
+    // centerPadding: 270,
     dots: true,
     duration: 500,
     accessibility: false,
@@ -29,10 +29,10 @@ const Carousel = () => {
 
   const BottomText = styled(ImageText)`
     padding: 1rem 2rem;
-  z-index: 40;
-  left: auto;
-  width: 294px;
-  margin: 2rem;
+    z-index: 40;
+    left: auto;
+    width: 294px;
+    margin: 2rem;
 `;
 
   return (

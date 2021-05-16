@@ -55,13 +55,13 @@ const EachItem = () => {
       <img src={ProductImg} alt="Products" className="mx-auto" />
       <div className="p-5 text-xl">
         <p className="flex items-center">3.5
-            <div className="flex  ml-3" style={{ color: "#FBBC04" }}>
+            <span className="flex  ml-3" style={{ color: "#FBBC04" }}>
             <BsStarFill />
             <BsStarFill />
             <BsStarFill />
             <BsStarHalf />
             <BsStar />
-          </div>
+          </span>
         </p>
         <h3 className="uppercase font-medium text-2xl">PURE CHAMOMILE</h3>
         <p className="py-1">Tisdane</p>

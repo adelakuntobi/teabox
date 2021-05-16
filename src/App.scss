@@ -1,3 +1,7 @@
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+@import '~slick-carousel/slick/slick',
+'~slick-carousel/slick/slick-theme';
 @font-face {
   font-family: 'Gilroy-Bold';
   font-style: normal;
@@ -62,12 +66,11 @@ body {
   color: #02CB5A !important;
 }
 
-
 .tobi {
   img {
     width: 100% !important;
   }
-  .carousel-dots{
+  .carousel-dots {
     margin: 2rem auto !important;
     z-index: 90;
   }
@@ -77,13 +80,24 @@ p {
   font-weight: 300;
 }
 
+.slick-prev,
+.slick-next {
+  background: #7979797a;
+  border-radius: 50%;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  outline: none;
+  background: #02CB5A;
+  // border-radius: 50%;
+}
+
 
 // Footer
-footer{
+footer {
   background-color: #F8F8F8;
   color: #494947;
 }
 
-.color-gray{
+.color-gray {
   color: #9098B1;
 }

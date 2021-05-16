@@ -15,7 +15,7 @@ const Navbar = () => {
 
         <div className="flex justify-between items-center ">
           <img src={Logo} alt="logo" />
-          <ul className="grid gap-6 grid-flow-col mx-6 nav-items">
+          <ul style={{color: "#3A3A3A"}} className="hidden md:grid gap-6 grid-flow-col mx-6 nav-items">
             <li>About</li>
             <li>Blog</li>
             <li className="flex-center">Products
@@ -24,18 +24,20 @@ const Navbar = () => {
             <MdKeyboardArrowDown /> </li>
           </ul>
         </div>
-        <div className="grid gap-6 grid-flow-col">
+        <div className=" hidden lg:grid gap-6 grid-flow-col">
           <div className="flex-center">
             <img className="rounded-full w-10 h-10" src={Avatar} alt="User's Avatar" />
-            Hi Adelakun
-            <MdKeyboardArrowDown />
+            <span style={{color: "#206840"}} className="px-3 font-medium">Hi Adelakun!</span>
+            <MdKeyboardArrowDown className="text-2xl" />
           </div>
           <div className="grid gap-4 grid-flow-col place-items-center">
-            <FiGlobe />
-            <p>English (INTL)</p>
-            <MdKeyboardArrowDown />
+            <FiGlobe style={{color: "#9098B1"}} className="text-xl" />
+            <p className=" font-normal">English (INTL)</p>
+            <MdKeyboardArrowDown style={{color: "#9098B1"}} className="text-xl" />
           </div>
         </div>
+
+        
       </section>
     </nav>
   )

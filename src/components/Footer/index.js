@@ -26,7 +26,7 @@ const Footer = () => {
     <footer >
       <div className=" container mx-auto w-11/12 py-12">
 
-        <section className=" flex justify-between">
+        <section className="grid grid-flow-row lg:grid-flow-col row-gap-10">
           <div className="flex justify-between flex-col">
             <div className="mb-12">
               <img src={Logo} alt="teabox" className=" " />
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div >
               <p className="uppercase font-normal color-gray">Connect with us</p>
-              <div className="grid grid-flow-col gap-16 my-3 text-2xl" style={{color: "#1E633C"}}>
+              <div className="grid grid-flow-col gap-12  my-3 text-2xl" style={{ color: "#1E633C" }}>
                 <FaFacebookSquare />
                 <FaTwitter />
                 <FaInstagram />
@@ -47,38 +47,40 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <Footersample heading="discover">
-            <li>Black Tea</li>
-            <li>Green Tea</li>
-            <li>Oolong Tea</li>
-            <li>White Tea</li>
-            <li>Top Sellers</li>
-            <li>New Arrivals</li>
-            <li className="flex items-center">Trending teas <span className="h-8 w-8 text-xs bg-red-600 rounded-full grid place-items-center text-white">HOT</span></li>
-          </Footersample>
-          <Footersample heading="Customer service">
-            <li>Contact us</li>
-            <li>Help Center</li>
-            <li>Our Agents</li>
-            <li>Track Order</li>
-            <li>Shipping and Returns</li>
-          </Footersample>
-          <Footersample heading="about us">
-            <li>About Teabox.com</li>
-            <li>Team</li>
-            <li>Brew Guide</li>
-            <li>Careers</li>
-          </Footersample>
-          <Footersample heading="my profile">
-            <li>My Dashboard</li>
-            <li>Order History</li>
-            <li>My Wishlist</li>
-            <li>Log out</li>
-          </Footersample>
+          <div className="grid grid-cols-2 md:grid-cols-4">
+            <Footersample heading="discover">
+              <li>Black Tea</li>
+              <li>Green Tea</li>
+              <li>Oolong Tea</li>
+              <li>White Tea</li>
+              <li>Top Sellers</li>
+              <li>New Arrivals</li>
+              <li className="flex items-center">Trending teas <span className="h-8 w-8 text-xs bg-red-600 rounded-full grid place-items-center text-white">HOT</span></li>
+            </Footersample>
+            <Footersample heading="Customer service">
+              <li>Contact us</li>
+              <li>Help Center</li>
+              <li>Our Agents</li>
+              <li>Track Order</li>
+              <li>Shipping and Returns</li>
+            </Footersample>
+            <Footersample heading="about us">
+              <li>About Teabox.com</li>
+              <li>Team</li>
+              <li>Brew Guide</li>
+              <li>Careers</li>
+            </Footersample>
+            <Footersample heading="my profile">
+              <li>My Dashboard</li>
+              <li>Order History</li>
+              <li>My Wishlist</li>
+              <li>Log out</li>
+            </Footersample>
+          </div>
         </section>
         <hr className="my-8" />
-        <section className="flex-center uppercase color-gray">
-          <ul className="grid gap-8 grid-flow-col">
+        <section className="flex justify-between flex-col lg:flex-row uppercase color-gray text-xs md:text-sm">
+          <ul className="grid gap-8 grid-flow-col mb-4 lg:mb-0">
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
             <li>Legal</li>

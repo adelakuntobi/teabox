@@ -10,7 +10,7 @@ const Headertext = () => {
   return (
     <section>
       <section className="flex-center py-4 container mx-auto w-11/12">
-        <div className="grid gap-4 grid-flow-col">
+        <div className="hidden lg:grid gap-4 grid-flow-col">
           <div className="flex-center">
             <HiPhone />
             <p>+234 802 200 1000</p>
@@ -21,7 +21,7 @@ const Headertext = () => {
             <p>enquiries@xyz.com</p>
           </div>
         </div>
-        <div className="grid gap-4 grid-flow-col">
+        <div className="hidden md:grid gap-4 grid-flow-col">
           <div className="flex-center">
             <CgSearch />
             <p>Find Items...</p>

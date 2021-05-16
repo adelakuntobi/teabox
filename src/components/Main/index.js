@@ -9,6 +9,9 @@ export const DefaultHeader = styled.h2`
   color: #3A3A3A;
   font-weight: 600;
   font-size: 40px;
+  @media (max-width: 768px) { 
+    font-size: 27px;
+   }
 
 `;
 

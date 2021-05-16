@@ -8,7 +8,7 @@ const Testimonial = () => {
     <div className=" py-16 bg-white">
       <div className="container w-11/12 mx-auto">
         <DefaultHeader className="text-center">What Our Customers Say</DefaultHeader>
-        <div className="grid grid-cols-3 gap-6 my-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 my-12">
           <TestSample />
           <TestSample />
           <TestSample />
