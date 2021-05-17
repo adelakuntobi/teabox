@@ -3,7 +3,7 @@ import User from "../../../images/avatar.jpg"
 
 const TestSample = () => {
   return (
-    <div className="p-4" style={{background: "#F6FEFA"}}>
+    <div className="p-4 my-4 mx-3" style={{background: "#F6FEFA"}}>
       <div className="flex items-start">
         <img src={User} alt="user" className="w-24 rounded-lg mr-3 object-contain" />
         <div>

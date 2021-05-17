@@ -1,0 +1,17 @@
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+@import '~slick-carousel/slick/slick',
+'~slick-carousel/slick/slick-theme';
+
+.center .slick-center{
+  transform: scale(1.2);
+}
+
+.slick-prev {
+  left: 5px;
+  z-index: 9;
+}
+.slick-next {
+  right: 5px;
+  z-index: 9;
+}

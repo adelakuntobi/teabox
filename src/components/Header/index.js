@@ -25,7 +25,8 @@ export const ImageText = styled.div`
   left: 4.1666666%;
   width: 28rem;
   
-  @media (max-width: 768px) { 
+  @media (max-width: 1024px) { 
+    
     padding: 2.5rem 1.5rem;
     left: 0;
     width: 100%;
@@ -44,7 +45,7 @@ const Header = () => {
 
 
         <div className="relative my-4 container mx-auto px-4">
-          <ImageText className=" relative md:absolute">
+          <ImageText className=" relative lg:absolute">
             <h1 className="uppercase text-3xl md:text-5xl font-semibold leading-tight mb-2 ">Packed with freshness and intact </h1>
             <p className=" font-light">High-quality loose leaf tea in a<br /> convinient option</p>
             <DefaultBtn className="w-full block p-4 text-lg mt-10">Shop Now</DefaultBtn>
